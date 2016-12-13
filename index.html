@@ -1,123 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 	<head>
-		
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Felix Tilch - Beratung</title>
 		<link href="css/main.css" rel="stylesheet" type="text/css">
-
 	</head>
 
 	<body>
+		<header role="banner" class="logo">
 
-		<header role="banner">
+			<svg width="100" height="100">
+  			<circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="1" fill="lightgrey" />
+			</svg>
 	
 			<a href="index.html"><h1>Felix Tilch <br /> Designleistungen und Lehre</h1></a>
 
-			<nav role="navigation">
+			<nav role="navigation" class="primary navigation">
 
 				<ul>
-
 					<li><a href="erfahrung.html">Erfahrung</a></li>
 					<li><a href="lehre.html">Lehre</a></li>
 					<li><a href="beratung.html">Beratung</a></li>
-					<li><a href="kontakt.html">Kontakt</a></li>
-			
+					<li><a href="kontakt.html">Kontakt</a></li>		
 				</ul>
 
 			</nav>
-
 		</header>
 
-		<section>
+		<section class="grid">
 
-			<h5>Erfahrung</h1>
+			<section class="container">
 
-			<div hidden>
+				<h5>Erfahrung</h1>
+				<div hidden>
+				<img src="https://mir-s3-cdn-cf.behance.net/user/138/e21cc493669.57d6287e8b4b2.jpg" alt="Portrait" width="138px" height="138px">	
+				
+				<p>Arbeitsproben und Lebenslauf</p>
+				<table class="cv">
+					<tr>
+						<th>Curriculum Vitae</th>
+					</tr>	
+					<tr>
+						<td>2014-2016</td>
+						<td>Lehrkraft für Kunst und Englisch</td>
+					</tr>
+					<tr>
+						<td>2103-2014</td>
+						<td>Design und Beratung</td>
+					</tr>
+					<tr>
+						<td>2006-2013</td>
+						<td>Studium Kommunikationsdesign</td>
+					</tr>
+					<tr>
+						<td>2002-2004</td>
+						<td>Studium Sozialwissenschaften</td>
+					</tr>
+				</table>
 
-			<img src="https://mir-s3-cdn-cf.behance.net/user/138/e21cc493669.57d6287e8b4b2.jpg" alt="Portrait" width="138px" height="138px">	
+				<a href="files/cv.pdf" download="cv.pdf">Curriculum Vitae</a>
 
-			<p>...</p>
+				</div>	
+			</section><!-- 
 
-			<table>
+					Lehre, Workshops, Projekte, Erklärausstellung, Lernmaterial, Formulare, Flipcards
 
-				<tr>
-					<th>Curriculum Vitae</th>
-				</tr>	
-				<tr>
-					<td>2014-2016</td>
-					<td>Lehrkraft für Kunst und Englisch</td>
-				</tr>
-				<tr>
-					<td>2103-2014</td>
-					<td>Design und Beratung</td>
-				</tr>
-				<tr>
-					<td>2006-2013</td>
-					<td>Studium Kommunikationsdesign</td>
-				</tr>
-				<tr>
-					<td>2002-2004</td>
-					<td>Studium Sozialwissenschaften</td>
-				</tr>
+			--><section>
+				<h5>Lehre</h1>
+					<p>Lehrkraft für die Fächer Kunst, Darstellendes Spiel und Englisch an der Sekundarschule Hilden.</p>
+					<p>Projekte und Workshops zum Thema Kreativitätstechniken. Schnittstellen in der Kunst. Unerwartete Werkmaterialien</p>
+			</section><!-- 
 
-			</table>
+					Unternehmensberatung, Kommunikationsmittel, Arbeitsproben... besserer Titel: Strategie?
 
-			<a href="files/cv.pdf" download="cv.pdf">Curriculum Vitae</a>
+			--><section>
 
-			</div>	
+				<h5>Beratung</h1>
 
-		</section><!-- 
+				<p>Entwicklung von mittelständischen Marken.</p>
 
-				Lehre, Workshops, Projekte, Erklärausstellung, Lernmaterial, Formulare, Flipcards
+			</section><!--
 
-		--><section>
+					Webformular, mailto:, Kontakt auch oben im Header platzieren?
 
-			<h5>Lehre</h1>
+			--><section>
 
-				<p>Lehrkraft für die Fächer Kunst, Darstellendes Spiel und Englisch an der Sekundarschule Hilden.</p>
+				<h5>Kontakt</h1>
 
-				<p>Projekte und Workshops zum Thema Kreativitätstechniken. Schnittstellen in der Kunst. Unerwartete Werkmaterialien</p>
+				<p>...</p>
 
-		</section><!-- 
+			</section><!--
 
-				Unternehmensberatung, Kommunikationsmittel, Arbeitsproben... besserer Titel: Strategie?
+					Braucht es ein About, Impressum als Navigationspunkte?
 
-		--><section>
+			--></section>
 
-			<h5>Beratung</h1>
+			<footer role="contentinfo" class="primary-footer">
 
-			<p>...</p>
-
-		</section><!--
-
-				Webformular, mailto:, Kontakt auch oben im Header platzieren?
-
-		--><section>
-
-			<h5>Kontakt</h1>
-
-			<p>...</p>
-
-		</section><!--
-
-				Brauch es ein About, Impressum als Navigationspunkte?
-
-		--><footer role="contentinfo">
-			
-			<nav>
+				<nav>
 		
 					<a href="erfahrung.html">Erfahrung</a>
 					<a href="lehre.html">Lehre</a>
 					<a href="beratung.html">Beratung</a>
 					<a href="kontakt.html">Kontakt</a>
 
-			</nav>
+				</nav>
 
-			<p>Felix Tilch &copy; 2016</p>
+				<small>Felix Tilch &copy; 2016</small>
 
-		</footer>
+			</footer>
 
 	</body>
 
